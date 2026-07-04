@@ -7,9 +7,6 @@ class Solution {
             arr[i+1] = nums[j+n];
             j++;
         }
-        for (int i=0; i<2*n; i++){
-            nums[i]=arr[i];
-        }
-        return nums;
+        return arr;
     }
 }
